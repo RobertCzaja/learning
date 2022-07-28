@@ -20,4 +20,14 @@ when there is no remote branch
 
 --------------------------------------------------------
 
+s
+dg
+s
+dg
+sd
+g
+sdg
+dgs
+
+
 git status -sb    |   short info  
