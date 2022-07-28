@@ -1,6 +1,8 @@
 git branch -r | shows all remote branches
            -a |           remote & local branches
 
+git branch -d branch-name-1  
+	remove branch, you must be on the different branch
 --------------------------------------------------------
 
 git checkout -b some-branch-name-1  |  creates new branch
