@@ -1,5 +1,7 @@
 git branch -r | shows all remote branches
            -a |           remote & local branches
+git branch    | without any parameters shows only local branches
+
 
 git branch -d branch-name-1  
 	LOCAL
