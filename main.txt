@@ -4,6 +4,7 @@ git config --global user.name something
 git config --global user.email example@gmail.com
 
 git add .
+git add -A
 
 -------------------|
 -------------------|   T O P I C

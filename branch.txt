@@ -3,6 +3,12 @@ git branch -r | shows all remote branches
 
 --------------------------------------------------------
 
-git checkout -b some-branch-name-1  |  utworzenie nowego brancha
+git checkout -b some-branch-name-1  |  creates new branch
 
-git push --set-upstream origin testing-branch-1 - gdy chcemy push'ować a nie ma branch'a na remote'cie
+git push --set-upstream origin testing-branch-1
+
+when there is no remote branch 
+
+--------------------------------------------------------
+
+git status -sb    |   short info  
