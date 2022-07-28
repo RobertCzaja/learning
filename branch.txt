@@ -2,7 +2,12 @@ git branch -r | shows all remote branches
            -a |           remote & local branches
 
 git branch -d branch-name-1  
+	LOCAL
 	remove branch, you must be on the different branch
+
+git push origin --delete branch-name-1
+	REMOTE
+
 --------------------------------------------------------
 
 git checkout -b some-branch-name-1  |  creates new branch
