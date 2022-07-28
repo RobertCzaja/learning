@@ -1,0 +1,5 @@
+git reflog
+
+git shortlog
+
+git log --merge
