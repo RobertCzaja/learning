@@ -22,5 +22,6 @@ git checkout 4748bc
 	git log command shows this as a HEAD and you could not see nothing more than that. 
 
 	When you execute status command then no branch will be showed. To revert this operation
-	checkout to master branch anyhow.
+	checkout to master branch anyhow... or even better: 
+	git switch -
  
