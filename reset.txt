@@ -16,5 +16,3 @@ in "red" files. When we not specified option --soft/--hard by default is soft.
 When we used --hard then commits will be removes as well as any changes. Branch
 will be absolutely clear.
 ----------------------------------------------------
-
-1111111111111111111
