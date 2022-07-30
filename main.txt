@@ -20,4 +20,7 @@ git checkout 4748bc
 	from specific revision. Firstly you need to obtain revision ID: git log 
 	and then use checkout command. Keep in mind that when you switch to previous revision
 	git log command shows this as a HEAD and you could not see nothing more than that. 
+
+	When you execute status command then no branch will be showed. To revert this operation
+	checkout to master branch anyhow.
  
