@@ -24,3 +24,4 @@ git checkout 4748bc
 	When you execute status command then no branch will be showed. To revert this operation
 	checkout to master branch anyhow... or even better: 
 	git switch -
+
