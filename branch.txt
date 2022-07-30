@@ -10,6 +10,9 @@ git branch -d branch-name-1
 git push origin --delete branch-name-1
 	REMOTE
 
+git branch -vv
+	To display mapping local branches with remote branches
+
 --------------------------------------------------------
 
 git checkout -b some-branch-name-1  |  creates new branch
