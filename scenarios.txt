@@ -1,0 +1,9 @@
+1. 
+	When after merge develop/master to feature branch i want to revert this operation.
+
+2.
+	When make a commit and try to revert this commit but i want to changes in files remains as 
+	"new code". 
+		1. When commits were not pushed to remote branch 
+		2. When comits were pushed to remote branch  
+
