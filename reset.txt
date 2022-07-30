@@ -16,3 +16,7 @@ in "red" files. When we not specified option --soft/--hard by default is soft.
 When we used --hard then commits will be removes as well as any changes. Branch
 will be absolutely clear.
 ----------------------------------------------------
+
+git reset --hard 345f   | there is no changes at all
+git reset --soft 345f   | changes remains as "green"
+git reset 345f          | changes remains as "red"
