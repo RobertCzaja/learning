@@ -1,1 +1,6 @@
+remove one line:  dd
+
+remove whole file content: 
+:1,$d
+
 shitf + g        go to the end of file
