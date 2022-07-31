@@ -6,6 +6,10 @@ git log --merge
 
 git log --abbrev-commit --abbrev=4 --pretty=oneline
 
+------| Shows authors commits
+
+git log --format=%ae | grep robertczaja
+
 ------| Shows unpushed commits 
 git shortlog origin/master..HEAD
 git log origin/master..HEAD
