@@ -13,6 +13,9 @@ git push origin --delete branch-name-1
 git branch -vv
 	To display mapping local branches with remote branches
 
+git branch feature/1234 develop
+	when you are on the branch feature/123123 but you want to create new one which base on different branch.
+
 --------------------------------------------------------
 
 git checkout -b some-branch-name-1  |  creates new branch
