@@ -1,1 +1,11 @@
-test666
+git stash list
+
+git stash push
+
+git stash show stash@{1}
+
+
+
+
+git stash apply stash@{1}
+git stash pop stash@{1}
