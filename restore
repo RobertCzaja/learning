@@ -7,3 +7,5 @@ When file is already "green" you need to first make it "red":
 
 	git reset HEAD somefile.txt
 	git restore somefile.txt	
+	
+	
