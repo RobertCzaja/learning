@@ -18,5 +18,18 @@ git log --format=%ae | grep robertczaja
 git shortlog origin/master..HEAD
 git log origin/master..HEAD
 
+-----------------------------------------------------
+git log --path 
+git log -p
+
+git log --stat -2
+git log --stat -2 --pretty=oneline
+
+
+oneline|short|full|fuller
+
+
+
+
 
 
