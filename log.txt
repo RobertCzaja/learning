@@ -1,3 +1,7 @@
+shows long in reverse order
+
+------------------------------
+
 git reflog
 
 git shortlog
@@ -13,3 +17,6 @@ git log --format=%ae | grep robertczaja
 ------| Shows unpushed commits 
 git shortlog origin/master..HEAD
 git log origin/master..HEAD
+
+
+
