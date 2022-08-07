@@ -7,6 +7,9 @@ git branch -d branch-name-1
 	LOCAL
 	remove branch, you must be on the different branch
 
+	When branch is removed there is no sign in master branch that this removed feature branch
+	is his parent - history will be updated so to speek.
+
 git push origin --delete branch-name-1
 	REMOTE
 
