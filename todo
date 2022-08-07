@@ -3,4 +3,8 @@
 
 	git reset HEAD some_file_name.txt
 
-3.
+3. When make "green" files with some changes but current branch is master and that's should be 
+   one feature branch - you need to checkout to this feature branch and make a commit. Master 
+   will not contain it anymore.
+   
+   
