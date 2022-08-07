@@ -7,4 +7,5 @@
    one feature branch - you need to checkout to this feature branch and make a commit. Master 
    will not contain it anymore.
    
+   But when you make a commit...
    
