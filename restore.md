@@ -15,12 +15,12 @@ When file is already "green" you need to first make it "red":
 > For example there is 2 commits that you want to revert but you still want to keep the changes 
 > in workespace as a "green" (or "red") files, so this it how it goes: 
 
-git reset --soft HEAD~2
+`git reset --soft HEAD~2`
 
 > So awesome! commits are gone but you still keep the changes!
 > If you want to make the "green" files "red" you need to restore shits like this:
 
-git restore --staged . 
+`git restore --staged . `
 
 > That's it!
 
