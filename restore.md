@@ -1,3 +1,4 @@
+# Only when not commited 
 
 When file is "red" and you want to revert back all changes:
 
