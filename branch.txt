@@ -9,6 +9,9 @@ git branch -d branch-name-1
 
 	When branch is removed there is no sign in master branch that this removed feature branch
 	is his parent - history will be updated so to speek.
+	
+	When branch that you want to remove has unique commits... just read this sentences from the Stack Overflow:
+	"It means the branch you are about to delete contains commits that are not reachable from any of: its upstream branch, or HEAD (currently checked out revision). In other words, when you might lose commits¹."
 
 git push origin --delete branch-name-1
 	REMOTE
