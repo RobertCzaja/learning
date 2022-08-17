@@ -27,6 +27,21 @@ git log --stat -2 --pretty=oneline
 
 
 oneline|short|full|fuller
+--------------------------------------------------------------------------------------
+Show different commits between two branches:
+
+git log --graph --left-right --cherry-pick --oneline master...feature/11
+
+	--cherry-pick 
+		Omit any commit that introduces the same 
+		changes as another commit on the other side 
+		
+	--left-right 
+		if you have two branches, A and B, a usual way 
+		to list all commits on only one side of them is with --left-right
+--------------------------------------------------------------------------------------			
+
+
 
 
 
