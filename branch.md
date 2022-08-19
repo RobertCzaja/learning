@@ -34,6 +34,8 @@ when there is no remote branch
 
 git status -sb    |   short info  
 
+## How to change remote branch
 
+TODO 
 
 
