@@ -9,6 +9,14 @@
 	(with a few commits - not pushed):
 	* move changes to new branch: `git checkout -b new-feature-branch`
 	* remove changes from develop: `git reset --hard HEAD~2` (when two new commits has been created)
-	* checks if everything it's ok: git log --oneline -5 
+	* checks if everything it's ok: git log --oneline -5
+	
+## 4. When I remove file, this file is unstaged and I want to revert this file back to life
+
+```
+git reset --hard 
+```		
+
+Execute this command to bring back previously removed file (which was unstaged).	 
 	
 	
