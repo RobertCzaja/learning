@@ -41,6 +41,11 @@ git log --graph --left-right --cherry-pick --oneline master...feature/11
 		to list all commits on only one side of them is with --left-right
 --------------------------------------------------------------------------------------			
 
+# Shows unpushed commits
+
+```
+git log origin/main...HEAD --oneline -15
+```
 
 
 
