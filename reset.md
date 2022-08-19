@@ -2,8 +2,10 @@ git reset --hard HEAD~
 remove only last commit
 
 git reset some_file.txt
-	When you decide to rever "add" command 
-	File become "red" again and changes in will remain
+git reset -- some_file.txt
+	When you decide to revet "add" command 
+	File become "red" again and changes in will remain	
+	
 git reset 
 	all files becomes "red" from "green"
 ----------------------------------------------------
