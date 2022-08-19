@@ -1,14 +1,12 @@
-1. 
-	When after merge develop/master to feature branch i want to revert this operation.
+# 1. When after merge develop/master to feature branch i want to revert this operation. 
+	
 
-2.
-	When make a commit and try to revert this commit but i want to changes in files remains as 
-	"new code". 
+# 2. When make a commit and try to revert this commit but i want to changes in files remains as "new code". 
 		1. When commits were not pushed to remote branch 
 		2. When comits were pushed to remote branch  
 
-3. 
-	When i do my feature shit but i realise that I'm on develop branch (with a few commits - not pushed):
+# 3. When i do my feature shit but i realise that I'm on develop branch 
+	(with a few commits - not pushed):
 	* move changes to new branch: `git checkout -b new-feature-branch`
 	* remove changes from develop: `git reset --hard HEAD~2` (when two new commits has been created)
 	* checks if everything it's ok: git log --oneline -5 
