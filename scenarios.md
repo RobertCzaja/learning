@@ -25,4 +25,9 @@ Execute this command to bring back previously removed file (which was unstaged).
 git restore some-file-name.md
 git restore .
 ```
-	
+
+## 6. When there is staged file that we wana make red again
+All changes will still remains in this file which truns to "red" (become unstaged)
+```
+git reset some_file.txt
+```	
