@@ -30,5 +30,7 @@ git checkout 4748bc
 -------------------|
 -------------------|    remote
 -------------------|
-
+Shows standard 
+```
 git remote -v
+```
