@@ -2,10 +2,23 @@ git stash list
 
 git stash push
 
+------------|
+------------|    SHOW 
+------------|
+```
 git stash show stash@{1}
+```
 
+To display all changes from the stashed files you need to add `-p` option like this:
 
-
-
+```
+git stash show stash@{0} -p
+```
+------------|
+------------|    APPLY 
+------------|
+```
 git stash apply stash@{1}
 git stash pop stash@{1}
+
+```
