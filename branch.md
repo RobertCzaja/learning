@@ -36,6 +36,9 @@ git status -sb    |   short info
 
 ## How to change remote branch
 
-TODO 
+To unset remote branch tracking (you need to be on branch that you want to edit):
+```
+git branch --unset-upstream
+```
 
 
