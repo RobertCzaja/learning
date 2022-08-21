@@ -22,3 +22,6 @@ git stash apply stash@{1}
 git stash pop stash@{1}
 
 ```
+I think is better to use `pop` over `apply` cause the first one clear stash so to speek, and in
+second case we need to manually execute `git stash clear` command
+
