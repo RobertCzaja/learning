@@ -1,4 +1,5 @@
-amend - poprawić 
+# Amend
+(pln: poprawić) 
 
 git commit --amend -m "some new message"
 
