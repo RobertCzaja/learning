@@ -1,1 +1,16 @@
 git revert --no-edit 345f
+
+# Multiple revert strategy 
+
+```
+git revert --no-commit D
+git revert --no-commit C
+git revert --no-commit B
+git commit -m "the commit message for all of them"
+```
+
+Or different one
+
+```
+git revert --no-commit HEAD~3..
+```
