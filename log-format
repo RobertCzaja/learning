@@ -4,3 +4,5 @@ git log -15 -abbrev-commit --abbrev=5 --pretty=format:"%h-%an, %ar : %s"
 %an  AUTHOR USER-NAME
 %ar  TIME AGO eg. 
 %s   COMMIT NAME 
+
+-----------------
